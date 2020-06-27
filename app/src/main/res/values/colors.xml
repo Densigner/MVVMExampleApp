@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    /*-->
+
+<!--    COLOUR SCHEME-->
+<!--    Bright Green: #beef00-->
+
+<!--    Electric Red: #ff0028-->
+
+<!--    Deep Green: #657a00-->
+
+<!--    Power Blue: #1400c6-->
+<!--    * */-->
+<resources>
+    <color name="colorPrimary">#beef00</color>
+    <color name="colorPrimaryDark">#1400c6</color>
+    <color name="colorAccent">#ff0028</color>
+    <color name="darkerGreen">#657a00</color>
+</resources>

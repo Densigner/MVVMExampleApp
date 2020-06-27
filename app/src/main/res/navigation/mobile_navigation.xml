@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/checkPassword">
+
+    <fragment
+        android:id="@+id/checkPassword"
+        android:name="com.example.haveibeenh4cked.views.CheckPassword"
+        android:label="check_password_fragment"
+        tools:layout="@layout/check_password_fragment" />
+    <fragment
+        android:id="@+id/checkPersonalInfo"
+        android:name="com.example.haveibeenh4cked.views.CheckPersonalInfo"
+        android:label="check_personal_info_fragment"
+        tools:layout="@layout/check_personal_info_fragment" />
+    <fragment
+        android:id="@+id/checkEmail"
+        android:name="com.example.haveibeenh4cked.views.CheckEmail"
+        android:label="check_email_fragment"
+        tools:layout="@layout/check_email_fragment" />
+</navigation>

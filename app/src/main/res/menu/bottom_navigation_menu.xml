@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/checkPersonalInfo"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        android:title="Check Personal Info" />
+    <item
+        android:id="@+id/checkEmail"
+        android:icon="@drawable/ic_email_black_24dp"
+        android:title="Check My Email" />
+    <item
+        android:id="@+id/checkPassword"
+        android:icon="@drawable/ic_lock_open_black_24dp"
+        android:title="Check My Password" />
+</menu>
